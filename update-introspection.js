@@ -42,7 +42,7 @@ async function fetchIntrospection() {
     }
 
     // Ensure public directory exists
-    const publicDir = path.join(__dirname, '../public');
+    const publicDir = path.join(__dirname, 'public');
     try {
       await fs.access(publicDir);
     } catch {
