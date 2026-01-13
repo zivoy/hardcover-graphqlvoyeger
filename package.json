@@ -1,0 +1,13 @@
+{
+  "name": "hardcover-graphql-voyager",
+  "version": "1.0.0",
+  "description": "Hardcover API documentation using GraphQL Voyager",
+  "scripts": {
+    "build": "bun update-introspection.js",
+    "deploy": "echo 'Deployment is handled by GitHub Actions'"
+  },
+  "type": "module",
+  "devDependencies": {
+    "graphql": "^16.12.0"
+  }
+}
